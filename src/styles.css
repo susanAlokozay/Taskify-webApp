@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+  }
+  
+  main {
+    min-height: 80vh;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a.mat-button {
+    color: white;
+  }
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+a.mat-button.active-link {
+  font-weight: bold !important;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 4px;
+  color: #fff !important;
+}
+
+
+.toolbar-right a {
+  margin-left: 12px;
+}
+.toolbar {
+  padding: 0 16px;
+  min-height: 56px;
+}
+
+
+
